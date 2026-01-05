@@ -1,11 +1,24 @@
-<div align="center">
+# Influencer Brief Strategist ✨
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A specialized AI tool built for female health and wellness influencers. This application transforms chaotic brand partnership briefs into FTC/FDA compliant, high-performing content with a supportive "big sister" tone.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Compliance Check:** Automatically flags non-compliant health claims (FDA) and ensures proper disclosure (FTC).
+- **Caption Generation:** Provides three distinct caption versions (Casual, Educational, Story-Driven).
+- **Reel & Story Scripts:** Comprehensive scripts including on-screen text, visual cues, and verbal disclosures.
+- **Brand Vibe Analysis:** Extracts tone and visual styles from the brief.
+- **History Tracking:** Saves recent strategies to local storage.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **Frontend:** React + Tailwind CSS
+- **AI:** Google Gemini API (`gemini-3-flash-preview`)
+- **Deployment:** Optimized for static hosting (ES modules)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
+1. Ensure you have your `API_KEY` set in the environment.
+2. Open `index.html` in a modern browser or serve via a static server.
 
-</div>
+## Compliance Logic
+The app strictly enforces:
+- **FDA:** No disease curing/treating claims. Uses "supports/promotes" alternatives.
+- **FTC:** Mandatory #ad or "Partnering with..." disclosure in the first 3 lines/10 seconds.
